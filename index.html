@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PWA Sample</title>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('serviceworker.js', {scope:'./'})
+                .then(function() { console.log('Service Worker Registered'); });
+        }
+    </script>
+    <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+<h1>PWA Sample</h1>
+<ul>
+    <li><a href="/">Top</a></li>
+    <li><a href="page1.html">Page1</a></li>
+    <li><a href="page2.html">Page2</a></li>
+</ul>
+</body>
+</html>

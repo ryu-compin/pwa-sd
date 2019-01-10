@@ -1,0 +1,38 @@
+{
+  "name": "How to PWA",
+  "short_name": "How to PWA",
+  "icons": [
+    {
+      "src": "/img/logo_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/logo_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/logo_144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/img/logo_96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/img/logo_48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#dddddd",
+  "description": "computer system construction",
+  "theme_color": "#4285bf",
+  "orientation": "any"
+}
